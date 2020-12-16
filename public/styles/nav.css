@@ -1,0 +1,14 @@
+nav {
+    list-style-type: none;
+    color:white; 
+    padding: 1.5em;
+    width: 100vw;
+    background-color: #4056A1;
+    height: 120px; 
+font-family: 'Bungee', cursive;
+    }
+@media (min-width: 1024px) {
+  nav{
+    background-color: #4056A1;
+  }
+}

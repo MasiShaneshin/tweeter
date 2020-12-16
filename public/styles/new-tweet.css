@@ -1,0 +1,191 @@
+.forButtonAndCounter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 50px;
+  font-family: Bungee;
+}
+
+.button {
+  display: flex;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  font-size: 15px;
+  padding: 6px 28px;
+}
+
+.new-tweet {
+width: 90%;
+display: inline-block;
+padding:20px;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.counter.error{
+  color : red;
+}
+.tweet-text {
+  background-color: #f4f1ec;
+  width: 100%;
+  padding:10px;
+  resize: none;
+  border: none;
+  border-bottom: 3px solid gray;
+}
+.label {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tweets-container{
+  width: 100%;
+}
+
+.article {
+  width: 100%;
+  resize:none;
+  background-color:inherit;
+  color:black;
+  border: solid grey 3px;
+  padding: 10px;
+  margin-bottom: 10px; 
+}
+
+.headers-footers-alignment{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-footer-format{
+  height: 20px;
+  background-color: transparent;
+  color: grey;
+  display:flex;
+  justify-content: flex-start;
+  margin: 20px;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif
+}
+
+.tweets-container:hover{
+  visibility: visible;
+  box-shadow: 10px 10px gray;
+}
+
+.header-hover{
+  height: 20px;
+  background-color: transparent;
+  color: grey;
+  display:flex;
+  justify-content: flex-start;
+  margin: 20px;
+  visibility: hidden;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif
+}
+
+.tweets-container:hover  .header-hover{
+  visibility: visible;
+  
+}
+.error-text {
+  color: red;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: transparent;
+  width: 100%;
+  font-size: 16px;
+  padding: 1em;
+  height: 40px;
+  display: none;
+}
+
+
+
+.box1 {
+  display: block;
+  padding: 30px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+   /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
+  text-align: justify;
+  border: 3px solid black;
+}
+
+.box2 {
+  display: block;
+  padding: 30px;
+  border: 3px solid black;
+  text-align:justify;
+  margin-top:50px; 
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+  .container{
+    margin: 0 auto;
+    width: 70%;
+   }
+   
+   .content{
+    width: 400px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3px;
+   }
+   
+   .content div{
+    text-align: right;
+   }
+   #txt_tweet{
+    min-width: 98%;
+    max-width: 98%;
+    min-height: 120px;
+    max-height: 120px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 3px;
+    color: gray;
+   }
+   #remain{
+    color: gray;
+   }
+   
+   #tweet{
+    padding: 5px 10px;
+    color: white;
+    border: 0;
+    background-color: #1b95e0;
+    letter-spacing: 1px;
+    font-size: 16px;
+   }
+
+   .floatRight{float:right;margin-left:20px;color:rgb(156, 154, 154)}
+
+
+   
+  a:hover {
+    Visibility: hidden;
+  }
+
+  
+
+
+
+
+  
