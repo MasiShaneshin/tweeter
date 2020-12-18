@@ -1,10 +1,17 @@
 header {
 height:400px;
 text-align: center;
-background: #1abc9c;
-background-color: lightblue;
-  
-  background: #1abc9c;
+background:yellowgreen;
+background-color:yellowgreen;
   color: white;
   font-size: 30px;
+}
+
+@media (min-width: 1024px) {
+  .page-header {
+    width: 25%;
+    float: left;
+    margin-top: 190px;
+    margin-left: 5%;
+  }
 }
