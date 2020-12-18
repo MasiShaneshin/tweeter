@@ -3,7 +3,7 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
+ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -15,10 +15,11 @@ html {
  */
 
 body {
-  font-family:"Source Sans Pro";
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 /*
@@ -27,8 +28,21 @@ body {
  nav {
   font-family: 'Bungee', cursive;
  }
-container{
-width: 90%;
-background-color: lightblue;
-
+.container {
+    background-color: #F4F1EC;
+    font-size : 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ @media (min-width: 1024px) {
+  .container {
+    width: 55%;
+    float: right;
+    padding-top: 135px;
+  }
 }
