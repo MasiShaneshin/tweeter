@@ -1,3 +1,5 @@
+
+  
 .forButtonAndCounter {
   display: flex;
   justify-content: space-between;
@@ -103,88 +105,10 @@ margin-right: 5%;
   height: 40px;
   display: none;
 }
-
-
-
-.box1 {
-  display: block;
-  padding: 30px;
-  margin-bottom: 80px;
-  margin-left: 80px;
-  margin-right: 80px;
-   /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
-  text-align: justify;
-  border: 3px solid black;
-}
-
-.box2 {
-  display: block;
-  padding: 30px;
-  border: 3px solid black;
-  text-align:justify;
-  margin-top:50px; 
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-  .container{
-    margin: 0 auto;
-    width: 70%;
-   }
-   
-   .content{
-    width: 400px;
-    border: 1px solid gray;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 3px;
-   }
-   
-   .content div{
-    text-align: right;
-   }
-   #txt_tweet{
-    min-width: 98%;
-    max-width: 98%;
-    min-height: 120px;
-    max-height: 120px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    padding: 3px;
-    color: gray;
-   }
-   #remain{
-    color: gray;
-   }
-   
-   #tweet{
-    padding: 5px 10px;
-    color: white;
-    border: 0;
-    background-color: #1b95e0;
-    letter-spacing: 1px;
-    font-size: 16px;
-   }
-
-   .floatRight{float:right;margin-left:20px;color:rgb(156, 154, 154)}
-
-
-   
-  a:hover {
-    Visibility: hidden;
-  }
-
+.right {
+  float: right;
   
-
+}
 
 
 
